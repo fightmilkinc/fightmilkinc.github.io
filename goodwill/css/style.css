@@ -1,0 +1,101 @@
+#wrapper {
+	text-align: center;
+}
+
+#useswrapper {
+	width: 80%;
+	margin:0 auto;
+}
+
+.usesdiv {
+	width:21%;
+	float:left;
+	padding-left: 25px;
+	padding-right:25px;
+}
+
+header, body {
+	text-align: center;
+}
+
+.usesimg {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.navlist li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.navlist li a {
+	text-decoration: none;
+	color: white;
+	padding-left: 0.3%;
+	padding-right: 0.3%;
+}
+
+.navlist {
+	margin-left: -3em;
+	padding:3px;
+}
+
+#mainnav {
+	background: #B36868;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 1em;
+}
+
+
+hr {
+	width: 90%;
+	color:#B36868;
+}
+
+h1, h2, h3 {
+	color: #B36868;
+	font-family: 'Pacifico', cursive;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p, a {
+	font-family: 'Old Standard TT', serif;
+}
+
+#purchasepane {
+	width:40%;
+	margin: 0 auto;
+	background:#B36868;
+	border-radius: 15px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #A43737;
+}
+
+.boxtitle {
+	color: white;
+	margin-top: 0%;
+}
+
+#quantity {
+	color:white;
+}
+
+
+
+footer {
+	background: blue;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 1em;
+}
