@@ -5,6 +5,7 @@
 #useswrapper {
 	width: 80%;
 	margin:0 auto;
+	overflow: auto;
 }
 
 .usesdiv {
@@ -85,17 +86,81 @@ p, a {
 	margin-top: 0%;
 }
 
-#quantity {
+#quantity, .footertext {
 	color:white;
 }
 
-
-
 footer {
-	background: grey;
+	background: #B36868;
 	width: 80%;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
-	border-radius: 1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	padding-bottom: 0.5em;
+	margin-bottom: -7px;
+}
+
+
+
+
+
+section {
+	width: 80%;
+	margin: 0 auto;
+/*	border-style: solid;
+	border-width: 1px;*/
+	overflow: hidden;
+}
+
+article {
+	width: 49%;
+	border-style: solid;
+	border-width: 0px;
+	border-color: black;
+	float: left;
+	margin-right: 10px;
+}
+
+aside {
+	width: 49%;
+	border-style: solid;
+	border-width: 0px;
+	border-color: black;
+	float: left;
+	margin-left: 10px;
+}
+
+
+
+.questiontitle {
+	font-weight: bold;
+}
+
+
+
+.review {
+	border-style: solid;
+	border-color: grey;
+	border-width: 0px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.userinfo {
+	float: left;
+	width: 20%;
+	padding-top: 17px;
+	padding-bottom: 9px;
+}
+
+.usercomment {
+	float: left;
+	width: 70%;
+}
+
+.username {
+	margin-top: 0px;
+	margin-bottom: 2px;
 }
