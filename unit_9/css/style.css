@@ -1,0 +1,166 @@
+#wrapper {
+	text-align: center;
+}
+
+#useswrapper {
+	width: 80%;
+	margin:0 auto;
+	overflow: auto;
+}
+
+.usesdiv {
+	width:21%;
+	float:left;
+	padding-left: 1.7em;
+	padding-right:1.7em;
+}
+
+header, body {
+	text-align: center;
+}
+
+.usesimg {
+	width: 100%;
+	border-radius: 2em;
+}
+
+.navlist li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.navlist li a {
+	text-decoration: none;
+	color: white;
+	padding-left: 0.3%;
+	padding-right: 0.3%;
+}
+
+.navlist {
+	margin-left: -3em;
+	padding:0.2em;
+}
+
+#mainnav {
+	background: #B36868;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 1em;
+}
+
+
+hr {
+	width: 90%;
+	color:#B36868;
+}
+
+h1, h2, h3 {
+	color: #B36868;
+	font-family: 'Pacifico', cursive;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p, a {
+	font-family: 'Old Standard TT', serif;
+}
+
+#purchasepane {
+	width:40%;
+	margin: 0 auto;
+	background:#B36868;
+	border-radius: 1em;
+	padding-bottom: 0.1em;
+	border-style: solid;
+	border-width: 0.4em;
+	border-color: #A43737;
+}
+
+.boxtitle {
+	color: white;
+	margin-top: 0%;
+}
+
+#quantity, .footertext {
+	color:white;
+}
+
+footer {
+	background: #B36868;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	padding-bottom: 0.5em;
+	margin-bottom: -1em;
+}
+
+
+
+
+
+section {
+	width: 80%;
+	margin: 0 auto;
+/*	border-style: solid;
+	border-width: 1px;*/
+	overflow: hidden;
+}
+
+article {
+	width: 49%;
+	border-style: solid;
+	border-width: 0px;
+	border-color: black;
+	float: left;
+	margin-right: 1em;
+}
+
+aside {
+	width: 49%;
+	border-style: solid;
+	border-width: 0px;
+	border-color: black;
+	float: left;
+	margin-left: 0.3em;
+}
+
+
+
+.questiontitle {
+	font-weight: bold;
+}
+
+
+
+.review {
+	border-style: solid;
+	border-color: grey;
+	border-width: 0px;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.userinfo {
+	float: left;
+	width: 20%;
+	padding-top: 1em;
+	padding-bottom: 0.8em;
+}
+
+.usercomment {
+	float: left;
+	width: 70%;
+}
+
+.username {
+	margin-top: 0px;
+	margin-bottom: 0.1em;
+}
